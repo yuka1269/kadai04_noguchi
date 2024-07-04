@@ -1,0 +1,257 @@
+@charset "utf-8";
+.main{
+    background-color: #E8D9BF;
+}
+.header_contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*55/1920=0.2864・・・*/
+    padding-left: 2.8%;
+    /*150/1920=0.78・・・*/
+    padding-right: 7.8%;
+    position: absolute;
+    width: 100%;
+   
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 74px;
+}
+
+.header_nav li{
+    color: #fff;
+    font-weight: bold;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+.logo{
+    width: 226px;
+}
+.contents{
+     max-width: 1000px;
+     margin: 0 auto;
+}
+
+
+/* first */
+.first{
+    padding-top: 107px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.first_text1 {
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+.first_text2 {
+    font-size: 82px;
+    line-height: 1.17;
+    padding-bottom: 60px;
+}
+.first_text3 {
+    font-size: 23px;
+    line-height: 1.65;
+}
+
+/* about_us */
+
+.about_us{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.about_title{
+    width: 272px;
+ }
+
+.about_contents{
+    width: 50%;
+    margin: 0;
+    padding-left: 85px;
+}
+
+.about_text1{
+    font-size: 44px;
+    line-height: 1.38;
+    padding-top: 60px;
+    padding-bottom: 38px;
+}
+
+.about_text2{
+    font-size:  16px;
+    line-height: 1.62;
+}
+
+.about_img img {
+    border-radius: 0 0 60px 0;
+}
+
+/* menu */
+.menu{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.menu_contents{
+display: flex;
+justify-content: space-between;
+}
+
+.menu_box{
+    width: 30%;
+}
+
+.menu_title{
+   width: 151px;
+   margin: 0 auto;
+   padding-bottom: 48px;
+}
+.menu_box h3{
+    margin-top: -20px;
+    padding-left: 20px;
+    font-size: 38px;
+    color: #D30202;
+
+}
+
+.menu_box p{
+    padding-top: 20px;
+    font-size: 17px;
+   line-height: 1.47;
+
+}
+
+.menu_box img{
+    border-radius: 0 60px 0 0;
+}
+
+
+/* gallery */
+.gallery{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+.gallery_title{
+ width: 245px;
+ margin: 0 auto;
+ padding-bottom: 25px;
+}
+
+.slider_g{
+    margin: 0 calc(50% - 50vw);
+    width: 100vw;
+}
+
+
+/* event */
+.event{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    
+    
+    .gevent_title{
+     width: 173px;
+     margin: 0 auto;
+     padding-bottom: 25px;
+    }
+    
+    .news{
+        padding: 20px 160px;
+        margin: 0 auto;
+        font-weight: bold;
+        background-color: #fff;
+        border: solid 3px #4F260B;
+    } 
+    .news li{
+        line-height: 2rem;
+    } 
+    .news span{
+        text-decoration:underline;
+        padding-left: 60px;
+    }
+
+
+    /* access */
+
+    .access{
+        padding-top: 50px;
+        }
+        
+        
+        .access_title{
+         width: 213px;
+         margin: 0 auto;
+         padding-bottom: 25px;
+        }
+    
+        .google_map{
+            margin: 0 calc(50% - 50vw);
+            filter: grayscale(100%) invert(92%) contrast(83%);
+        }
+
+
+    /* access */
+
+    .footer_container {
+        max-width: 1000px;
+        padding: 85px;
+        margin: 0 auto;
+
+
+    }
+
+     .footer_info{
+        display: flex;       
+        }
+
+    .footer_logo{
+        width: 226px;
+        margin-top: 5px;
+        padding-right: 70px;
+
+    }
+
+    .info li{
+        font-size: 20px;
+        line-height: 1.95;
+    }
+
+    .copy{
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 85px;
+    }
+
+      /* button */
+
+    .c-backToTop {
+        z-index: 100;
+        position: fixed;
+        right: 100px;
+        bottom: 230px;
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      
+      
+      .c-backToTop a:before {
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        transform: translate(-50%, -50%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        content: "";
+        top: 50%;
+        left: 50%;
+        display: inline-block;
+      }
