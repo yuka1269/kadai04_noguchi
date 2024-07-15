@@ -211,7 +211,7 @@ display: none;
     font-size: 30px;
   }
   .about_text2 {
-    font-size: 12px;
+    font-size: 16px;
   }
   }
   
@@ -402,16 +402,16 @@ display: none;
 }
 
 .first_text1 {
-  font-size: 2.21vw;
+  font-size: 17px;
   padding-bottom: 30px;
 }
 .first_text2 {
-  font-size: 4.95vw;
+  font-size: 38px;
   line-height: 1.8;
   padding-bottom: 30px;
 }
 .first_text3 {
-  font-size:2.08vw;
+  font-size: 16px;
   line-height: 1.87;
 }
 
@@ -444,7 +444,7 @@ display: none;
 }
 
 .about_text1 {
-  font-size: 4.69vw;
+  font-size: 45px;
   line-height: 1.25;
   padding-top: 37px;
   padding-bottom: 30px;
@@ -455,6 +455,12 @@ display: none;
 }
 
 /* menu */
+
+.menu {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .menu_contents {
   display:flex;
   flex-flow: column;
@@ -481,7 +487,7 @@ display: none;
 
 .menu_box p {
   padding-top: 20px;
-  font-size: 2.21vw;
+  font-size: 17px;
   line-height: 1.47;
 }
 
@@ -494,6 +500,12 @@ display: none;
 .slider_g{
   display: none;
 }
+
+.gallery {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 .gallery_title {
   width: 142px;
@@ -508,6 +520,12 @@ display: none;
 
 
 /* event */
+
+.event {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .event_title {
   width: 100px;
   margin: 0 auto;
@@ -526,11 +544,15 @@ display: none;
 .news li {
   margin: 0 auto;
   line-height: 1.3rem;
-  font-size: 2.08vw;
+  font-size: 16px;
   padding: 10px 0;
 }
 
 .news span {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-decoration: underline;
   padding: 0;
 }
@@ -540,6 +562,9 @@ display: none;
 }
 
 /* access */
+.access{
+  padding-top: 30px;
+}
 .access_title {
   width: 124px;
   margin: 0 auto;
@@ -550,10 +575,11 @@ display: none;
 .footer_info {
   display:flex;
   flex-flow: column;
+  padding: 20px;
 }
 
 .info li {
-  font-size: 2.6vw;
+  font-size: 18px;
   line-height: 1.95;
 }
 
