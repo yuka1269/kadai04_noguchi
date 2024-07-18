@@ -12,6 +12,7 @@
   padding-right: 7.8%;
   position: absolute;
   width: 100%;
+  z-index: 9997;
 }
 
 .header_nav ul {
@@ -106,6 +107,8 @@
     width: 100%;
     height: 100vh;
     background-color: #0000006c;
+    z-index: 9998;
+
 }
 
 .header_nav-sp ul{
@@ -497,9 +500,9 @@ display: none;
 
 
 /* gallery */
-.slider_g{
+/* .slider_g{
   display: none;
-}
+} */
 
 .gallery {
   padding-top: 30px;
@@ -513,9 +516,9 @@ display: none;
   padding-bottom: 25px;
 }
 
-.gallery_sp{
+/* .gallery_sp{
   display: block;
-}
+} */
 
 
 
@@ -615,4 +618,20 @@ display: none;
   display: inline-block;
 }
 
+}
+
+.slick-dots{
+  bottom: 0;
+}
+
+.slick-dots li button:before{
+  color:#fff
+}
+
+.slick-dots li.slick-active button:before{
+  color: #fff;
+}
+
+.slick-dotted.slick-slider{
+  margin-bottom: 0;
 }

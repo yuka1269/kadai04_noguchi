@@ -1,12 +1,48 @@
 
 
-$(function(){
+//$(function(){
     $('.slider_g').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      });
+      
+ // });
+
+
+  $(function () {
+    $('.slider_g').slick({
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      adaptiveHeight: true,
+      dots: true,
+      slidesToShow: 5,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            autoplaySpeed: 2000,
+          slidesToShow: 1,
+          },
+        },
+      ],
+    });
+  });
+
+
+
+
+  $(function(){
+    $('.mainvisual').slick({
+      arrrows: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true,
       });
   });
+
 
 
   $(function() {
