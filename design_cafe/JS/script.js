@@ -25,6 +25,7 @@
           settings: {
             autoplaySpeed: 2000,
           slidesToShow: 1,
+          dots: false
           },
         },
       ],
@@ -36,7 +37,7 @@
 
   $(function(){
     $('.mainvisual').slick({
-      arrrows: false,
+      arrows: false,
       autoplay: true,
       autoplaySpeed: 2000,
       dots: true,
